@@ -5,7 +5,7 @@
 # Compiled files
 *.tfstate
 *.tfstate.*
-terraform.tfstat
+terraform.tfstate
 terraform.tfstate.backupe
 
 
