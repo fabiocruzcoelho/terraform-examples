@@ -5,6 +5,7 @@ yum update -y #&& yum install wget && yum install curl && net-tools
 
 #Instalação Pre-Requisitos
 while read -r p ; do sudo yum install -y $p ; done < <(cat << "EOF"
+    bash_completion
     curl
     wget
     vim
