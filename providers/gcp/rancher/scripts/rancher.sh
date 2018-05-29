@@ -20,5 +20,8 @@ sudo curl -fsSL https://get.docker.com | bash
 sudo systemctl start docker
 sudo systemctl enable docker
 
+# Disable firewalld.service
+sudo systemctl disable firewalld.service
+
 # Subir Rancher
 sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
