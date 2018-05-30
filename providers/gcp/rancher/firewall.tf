@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "devops" {
-  name    = "estudos-devops"
+  name    = "estudosdevops"
   network = "default"
 
   allow {
