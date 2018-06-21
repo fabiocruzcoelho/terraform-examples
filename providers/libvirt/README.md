@@ -17,7 +17,4 @@
 
 8 - mkdir .terraform.d/plugins && cd .terraform.d/plugins && cp    ~/go/bin/terraform-provider-libvirt .
 
-9 - go get github.com/dmacvicar/terraform-provider-libvirt
-
-10 - go install github.com/dmacvicar/terraform-provider-libvirt
 
